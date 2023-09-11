@@ -1,38 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Ignite Call
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-technology">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executing">Executing</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<p align="center">
+  <img alt="dev.ignite-call" src=".github/home.png" width="100%">
+</p>
+
+<p align="center">
+  <img alt="dev.ignite-call" src=".github/calendar.png" width="100%">
+</p>
+
+## 🚀 Technology
+
+This project was developed with:
+
+- React
+- Next.js
+- Typescript
+- Node.js
+- Prisma.io
+- Google APIs
+- Google Cloud Platform
+- Docker
+- Axios
+- Next Seo
+- React Hook Form
+- Stitches
+- Zod
+
+## 🔖 Project
+
+The Ignite Call project was built for scheduling appointments using a calendar integrated with Google Calendar. Users can sign up for the app using their Google account and specify the days of the week and times when they will be available to schedule appointments. All appointments will be saved in Google Calendar.
+
+
+## 💻 Executing
+
+This project was develop with [Next.js](https://nextjs.org/docs).
+
+To run the application, a connection to a database (local or container) integrated with the Prisma.io tool is required, as well as creating a project on the Google Cloud Platform. This file also contains the connection URL that should be used for Prisma's connection to the database.
+
+There is an .env.example file to assist with environment variables.
+
+```sh
+  # Clone this project
+$ git clone git@github.com:italo-lima/ignite-call.git
+# Install dependencies
+$ yarn
+# Run the project
+$ yarn dev
+# The server will initialize in the <http://localhost:3000>
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
